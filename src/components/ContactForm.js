@@ -40,16 +40,16 @@ export default function ContactForm() {
             <p>203, Evanto Labs, Behind Alis Street , Australia</p>
           </div>
           <div className="info">
-            <a href='#'>
+            <a href='https://www.google.com/'>
                 <AiFillFacebook size={'2rem'} className='ion-icon'/>
             </a>
-            <a href='#'>
+            <a href='https://www.google.com/'>
                 <AiFillInstagram size={'2rem'} className='ion-icon'/>
             </a>
-            <a href='#'>
+            <a href='https://www.google.com/'>
                 <AiFillTwitterCircle size={'2rem'} className='ion-icon'/>
             </a>
-            <a href='#'>
+            <a href='https://www.google.com/'>
                 <AiFillYoutube size={'2rem'} className='ion-icon'/>
             </a>
           </div>

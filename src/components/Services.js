@@ -15,28 +15,28 @@ export default function Services() {
             icon: <TiLockClosedOutline className='ion-icon'/>,
             title: "SSL certifecate",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ea!",
-            link: '#'
+            link: 'https://www.google.com/'
         },
         {
             id: 1,
             icon: <TiGlobeOutline className='ion-icon'/>,
             title: "Personal Domain",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ea!",
-            link: '#'
+            link: 'https://www.google.com/'
         },
         {
             id: 2,
             icon: <BsCodeSlash className='ion-icon'/>,
             title: "Code Editor",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ea!",
-            link: '#'
+            link: 'https://www.google.com/'
         },
         {
             id: 3,
             icon: <IoFileTrayStackedSharp className='ion-icon' />,
             title: "Media Storage",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ea!",
-            link: '#'
+            link: 'https://www.google.com/'
         }
     ]
 
@@ -52,7 +52,7 @@ export default function Services() {
     ))
 
   return (
-    <div className="section services">
+    <section className="section services">
       <div className="section-content">
         <h1>Hosting solution with benifits.</h1>
         <p>
@@ -69,6 +69,6 @@ export default function Services() {
       <div className="offers">
         {servicesList}
       </div>
-    </div>
+    </section>
   )
 }

@@ -44,7 +44,7 @@ export default function Testimonials() {
 
     const feedbacksList = feedbacks.map(feedback => (
         <div key={feedback.id} className="user">
-          <div className="img-container">
+          <div className="img-container floating">
             <img src={feedback.image} alt="chief.png" />
           </div>
           <p className="quote">
